@@ -571,18 +571,18 @@
 <div id="航空資訊" class="tabcontent">
     <h2 style="color:#FF8800;font-weight:bold;">航空資訊:</h2>
 <p>從台北出發：(航班由松山機場出發)<br>
-松山機場： 網站： http://www.tsa.gov.tw/<br>
-立榮航空： 網站： https://www.uniair.com.tw/<br>
+松山機場： 網站： <a href="http://www.tsa.gov.tw/">http://www.tsa.gov.tw/</a><br>
+立榮航空： 網站：<a href=" https://www.uniair.com.tw/"> https://www.uniair.com.tw/</a><br>
 客服電話：02–25086999<br>
 ＊立榮航空往返台北-花蓮，票價時有變化，請參見上述網站的最新更新價格。<br>
 從台中出發：(航班由台中機場出發)<br>
-台中機場： 網站： http://www.tca.gov.tw/<br>
-華信航空： 網站： http://www.mandarin-airlines.com/<br>
+台中機場： 網站： <a href="http://www.tca.gov.tw/">http://www.tca.gov.tw/</a><br>
+華信航空： 網站：<a href=" http://www.mandarin-airlines.com/"> http://www.mandarin-airlines.com/</a><br>
 客服電話：02–4128008<br>
 ＊華信航空往返台中-花蓮，票價時有變化，請參見上述網站的最新更新價格。<br>
 從高雄出發：(航班由高雄國際機場出發)<br>
-高雄國際機場： 網站：  http://www.kia.gov.tw/<br>
-華信航空： 網站： http://www.mandarin-airlines.com/index.html<br>
+高雄國際機場： 網站： <a href=" http://www.kia.gov.tw/"> http://www.kia.gov.tw/</a><br>
+華信航空： 網站： <a href="http://www.mandarin-airlines.com/index.html">http://www.mandarin-airlines.com/index.html</a><br>
 客服電話：07-8057900<br>
 電話訂票：07-8026868<br>
 ＊機票票價時有變化，請參見上述網站的最新更新價格。<br>
@@ -605,7 +605,7 @@ PS：因時刻表仍會更新或變動（因地震、颱風、公路施工管制
 太魯閣客運綠能公車302線<br>
 網站及時刻表：<a href="http://www.ropobus.com/route?area=6">http://www.ropobus.com/route?area=6</a><br>
 <li><a href="https://www.taroko.gov.tw/content/file/302%E5%85%AC%E8%BB%8A%E6%99%82%E5%88%BB%E8%A1%A8.xls">302公車時刻表(.xls)</a></li><br>
-<li><a href="https://www.taroko.gov.tw/content/file/302%E5%85%AC%E8%BB%8A%E6%99%82%E5%88%BB%E8%A1%A8.ods">3302公車時刻表(.ods)</a></li><br>
+<li><a href="https://www.taroko.gov.tw/content/file/302%E5%85%AC%E8%BB%8A%E6%99%82%E5%88%BB%E8%A1%A8.ods">302公車時刻表(.ods)</a></li><br>
 
     </p>
 </div>
