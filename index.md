@@ -517,7 +517,7 @@
 
 <div id="開車上路" class="tabcontent">
     <h2 style="color:#FF8800;font-weight:bold;">開車上路:</h2>
-   <img style="width:100%;height:400px" src="https://www.taroko.gov.tw/Utility/DisplayImage?id=10785&prefix=original_">
+   <img style="width:100%;height:400px" src="https://www.taroko.gov.tw/content/images/static/tourism/traffic-map.gif">
 <p>
      從台灣北部出發：<br>
 路線1：<br>
@@ -595,15 +595,15 @@
    
 <p>
         搭乘花蓮客運公車時間約1小時，往『太魯閣』及『崇德』皆可搭乘到太管處，惟進入到峽谷段，請搭乘往『天祥』、『洛韶』或『梨山』公車皆可，進入峽谷段每日公車班次有限，行前請與花蓮客運公司確認公車時刻表（03-8338146），以方便行程安排。<br>
-網站及時刻表： <li><a href="http://www.hualienbus.com.tw/bus/ticket_info.php"></a></li><br>
+網站及時刻表： <li><a href="http://www.hualienbus.com.tw/bus/ticket_info.php">http://www.hualienbus.com.tw/bus/ticket_info.php</a></li><br>
 PS：因時刻表仍會更新或變動（因地震、颱風、公路施工管制緣故），建議您直接洽詢花蓮客運（03-8338146）確認公車班次時間。<br>
 
 台灣好行-太魯閣線:1133<br>
 
-網站及時刻表： <li><a href="http://www.hualienbus.com.tw/bus/hualien_bus.php"></a></li><br>
+網站及時刻表： <li><a href="http://www.hualienbus.com.tw/bus/hualien_bus.php">http://www.hualienbus.com.tw/bus/hualien_bus.php</a></li><br>
 
 太魯閣客運綠能公車302線<br>
-網站及時刻表： <li><a href="http://www.ropobus.com/route?area=6"></a></li><br>
+網站及時刻表： <li><a href="http://www.ropobus.com/route?area=6">http://www.ropobus.com/route?area=6</a></li><br>
 <li><a href="https://www.taroko.gov.tw/content/file/302%E5%85%AC%E8%BB%8A%E6%99%82%E5%88%BB%E8%A1%A8.xls">302公車時刻表(.xls)</a></li><br>
 <li><a href="https://www.taroko.gov.tw/content/file/302%E5%85%AC%E8%BB%8A%E6%99%82%E5%88%BB%E8%A1%A8.ods">3302公車時刻表(.ods)</a></li><br>
 
