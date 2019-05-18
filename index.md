@@ -422,32 +422,32 @@
 
     <div class="mySlides fade">
         <div class="numbertext">1 / 5</div>
-        <img style="width:100%;height:400px" src="https://www.funtime.com.tw/blog/wp-content/uploads/2017/08/28.png">
-        <div class="text"> 夢幻湖</div>
+        <img style="width:100%;height:400px" src="https://www.taroko.gov.tw/Utility/DisplayImage?id=17804&prefix=original_">
+        <div class="text"> 崇德步道</div>
     </div>
 
     <div class="mySlides fade">
         <div class="numbertext">2 / 5</div>
-        <img style="width:100%;height:400px" src="https://www.funtime.com.tw/blog/wp-content/uploads/2017/08/130.jpg" >
-        <div class="text"> 擎天崗</div>
+        <img style="width:100%;height:400px" src="https://www.taroko.gov.tw/Utility/DisplayImage?id=10750&prefix=original_" >
+        <div class="text">長春祠</div>
     </div>
 
     <div class="mySlides fade">
         <div class="numbertext">3 / 5</div>
-        <img style="width:100%;height:400px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCQbpF2Ed1cBs92fJpY4bIFw8aLfNKPjMt8hR7sl3AnYO_cDSyoQ">
-        <div class="text"> 山羌</div>
+        <img style="width:100%;height:400px" src="https://www.taroko.gov.tw/Utility/DisplayImage?id=10933&prefix=original_">
+        <div class="text">布洛灣</div>
     </div>
     
     <div class="mySlides fade">
         <div class="numbertext">4 / 5</div>
-        <img style="width:100%;height:400px" src="https://www.ymsnp.gov.tw/filesys/images/ch/csv/rsc/resource04-01.jpg">
-        <div class="text"> 赤腹松鼠  </div>
+        <img style="width:100%;height:400px" src="https://www.taroko.gov.tw/Utility/DisplayImage?id=585&prefix=original_">
+        <div class="text">碧綠神木</div>
     </div>
     
     <div class="mySlides fade">
         <div class="numbertext">5 / 5</div>
-        <img style="width:100%;height:400px" src="https://www.ymsnp.gov.tw/filesys/images/ch/csv/rsc/resource03-01.jpg">
-        <div class="text"> 臺灣龍膽</div>
+        <img style="width:100%;height:400px" src="https://www.taroko.gov.tw/Utility/DisplayImage?id=10785&prefix=original_">
+        <div class="text">燕子口</div>
     </div>
     
     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
