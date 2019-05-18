@@ -507,7 +507,7 @@
 <div class="tab">
     <button class="tablinks" onclick="openCity(event, '開車上路')">開車上路</button>
     <button class="tablinks" onclick="openCity(event, '鐵路交通')">鐵路交通</button>
-    <button class="tablinks" onclick="openCity(event, '休閒公車')">休閒公車</button>
+    <button class="tablinks" onclick="openCity(event, '航空資訊')">航空資訊</button>
     <button class="tablinks" onclick="openCity(event, '公路客運')">公路客運</button>
     <button class="tablinks" onclick="openCity(event, '租車')">租車</button>
     
@@ -568,40 +568,26 @@
     </p>
 </div>
 
-<div id="休閒公車" class="tabcontent">
-    <h2 style="color:#FF8800;font-weight:bold;">休閒公車(僅假日行駛):</h2>
-
-    <table border="1" cellpadding="5" cellspacing="0" width="90%">
-        <thead>
-            <tr>
-                <th width="31%">名稱 </th>
-                <th width="18%">路線 </th>
-            </tr>
-        </thead>
-
-        <tbody>
-            <tr>
-                <td>109</td>
-                <td>萬芳社區─陽明山國家公園管理處</td>
-            </tr>
-
-            <tr>
-                <td>111</td>
-                <td>	捷運迴龍站─陽明山國家公園管理處</td>
-            </tr>
-
-            <tr>
-                <td>128</td>
-                <td>捷運石牌站─陽明山國家公園管理處</td>
-            </tr>
-
-            <tr>
-                <td>129</td>
-                <td>	捷運北投站─竹子湖</td>
-            </tr>
-
-        </tbody>
-    </table>
+<div id="航空資訊" class="tabcontent">
+    <h2 style="color:#FF8800;font-weight:bold;">航空資訊:</h2>
+<p>從台北出發：(航班由松山機場出發)<br>
+松山機場： 網站： http://www.tsa.gov.tw/<br>
+立榮航空： 網站： https://www.uniair.com.tw/<br>
+客服電話：02–25086999<br>
+＊立榮航空往返台北-花蓮，票價時有變化，請參見上述網站的最新更新價格。<br>
+從台中出發：(航班由台中機場出發)<br>
+台中機場： 網站： http://www.tca.gov.tw/<br>
+華信航空： 網站： http://www.mandarin-airlines.com/<br>
+客服電話：02–4128008<br>
+＊華信航空往返台中-花蓮，票價時有變化，請參見上述網站的最新更新價格。<br>
+從高雄出發：(航班由高雄國際機場出發)<br>
+高雄國際機場： 網站：  http://www.kia.gov.tw/<br>
+華信航空： 網站： http://www.mandarin-airlines.com/index.html<br>
+客服電話：07-8057900<br>
+電話訂票：07-8026868<br>
+＊機票票價時有變化，請參見上述網站的最新更新價格。<br>
+如何到太魯閣：<br>
+    出機場即可搭乘花蓮客運或計程車到太魯閣國家公園遊客中心，約需25分鐘車程。或是您也可以租車，機場內就有汽車租賃的服務櫃檯。<br></p>
     
 </div>
 <div id="公路客運" class="tabcontent">
