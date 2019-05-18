@@ -639,7 +639,7 @@ PS：因時刻表仍會更新或變動（因地震、颱風、公路施工管制
         <table border="1" cellpadding="5" cellspacing="0" width="90%">
             <thead>
                 <tr>
-                    <th width="70%">民宿/飯店 </th>
+                    <th heigth="70%">民宿/飯店 </th>
                     <th width="48%">地址 </th>
                     <th width="24%">聯絡電話 </th>
                     <th width="24%">網址 </th>
@@ -670,16 +670,16 @@ PS：因時刻表仍會更新或變動（因地震、颱風、公路施工管制
 
                 <tr>
                     <td>立德布洛灣-山月村<img style="width:100%;height:400px" src="http://pic.pimg.tw/songster/1416476805-3524352764.jpg?v=1416476865"></td>
-                    <td>台北市士林區格致路237號</td>
+                    <td>花蓮縣秀林鄉231-1號</td>
                     <td>	03-8610111</td>
                      <td> <a href="http://www.tarokovillage.com/</a></td>
                 </tr>
 
                 <tr>
-                    <td>金山劉住春天 原宿溫泉民宿<img style="width:100%;height:400px" src="http://pic.pimg.tw/songster/1416476805-3524352764.jpg?v=1416476865"></td>
-                    <td>208新北市金山區名流路10巷11號</td>
-                    <td>0955 937 226</td>
-                     <td> <a href="http://www.mandarin-airlines.com/index.html">http://www.mandarin-airlines.com/index.html</a></td>
+                    <td>太魯閣旅店<img style="width:100%;height:400px" src="http://pic.pimg.tw/songster/1416476805-3524352764.jpg?v=1416476865"></td>
+                    <td>花蓮縣秀林鄉258號</td>
+                    <td>03-8611558</td>
+                     <td> <a href="http://www.taroko-hotel.com.tw/i_main4.php</a></td>
                 </tr>
             </tbody>
         </table>
