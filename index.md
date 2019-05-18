@@ -662,17 +662,17 @@ PS：因時刻表仍會更新或變動（因地震、颱風、公路施工管制
                 </tr>
 
                 <tr>
-                    <td>陽明山出霧溫泉飯店<img style="width:100%;height:400px" src="http://pic.pimg.tw/songster/1416476805-3524352764.jpg?v=1416476865"></td>
-                    <td>新北市金山區山城路82之3號</td>
-                    <td>02-24080666#1</td>
-                     <td> <a href="http://www.mandarin-airlines.com/index.html">http://www.mandarin-airlines.com/index.html</a></td>
+                    <td>太魯閣晶英酒店<img style="width:100%;height:400px" src="http://pic.pimg.tw/songster/1416476805-3524352764.jpg?v=1416476865"></td>
+                    <td>花蓮縣秀林鄉天祥18號</td>
+                    <td>03-8691155</td>
+                     <td> <a href="http://taroko.silksplace.com.tw/</a></td>
                 </tr>
 
                 <tr>
-                    <td>陽明山中國麗緻大飯店<img style="width:100%;height:400px" src="http://pic.pimg.tw/songster/1416476805-3524352764.jpg?v=1416476865"></td>
+                    <td>立德布洛灣-山月村<img style="width:100%;height:400px" src="http://pic.pimg.tw/songster/1416476805-3524352764.jpg?v=1416476865"></td>
                     <td>台北市士林區格致路237號</td>
-                    <td>02 2861 6661</td>
-                     <td> <a href="http://www.mandarin-airlines.com/index.html">http://www.mandarin-airlines.com/index.html</a></td>
+                    <td>	03-8610111</td>
+                     <td> <a href="http://www.tarokovillage.com/</a></td>
                 </tr>
 
                 <tr>
