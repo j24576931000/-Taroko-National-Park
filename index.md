@@ -508,8 +508,8 @@
     <button class="tablinks" onclick="openCity(event, '開車上路')">開車上路</button>
     <button class="tablinks" onclick="openCity(event, '鐵路交通')">鐵路交通</button>
     <button class="tablinks" onclick="openCity(event, '航空資訊')">航空資訊</button>
-    <button class="tablinks" onclick="openCity(event, '公路客運')">公路客運</button>
-    <button class="tablinks" onclick="openCity(event, '租車')">租車</button>
+    <button class="tablinks" onclick="openCity(event, '花蓮客運')">花蓮客運</button>
+    
     
 
 </div>
@@ -590,32 +590,23 @@
     出機場即可搭乘花蓮客運或計程車到太魯閣國家公園遊客中心，約需25分鐘車程。或是您也可以租車，機場內就有汽車租賃的服務櫃檯。<br></p>
     
 </div>
-<div id="公路客運" class="tabcontent">
-    <h2 style="color:#FF8800;font-weight:bold;">公路客運:</h2>
+<div id="花蓮客運" class="tabcontent">
+    <h2 style="color:#FF8800;font-weight:bold;">花蓮客運:</h2>
    
 <p>
-        <table border="1" cellpadding="5" cellspacing="0" width="90%">
-            <thead>
-                <tr>
-                    <th width="31%">名稱 </th>
-                    <th width="47%">路線 </th>
-                  
-                </tr>
-            </thead>
-            <tbody>
+        搭乘花蓮客運公車時間約1小時，往『太魯閣』及『崇德』皆可搭乘到太管處，惟進入到峽谷段，請搭乘往『天祥』、『洛韶』或『梨山』公車皆可，進入峽谷段每日公車班次有限，行前請與花蓮客運公司確認公車時刻表（03-8338146），以方便行程安排。<br>
+網站及時刻表： <li><a href="http://www.hualienbus.com.tw/bus/ticket_info.php"></a></li><br>
+PS：因時刻表仍會更新或變動（因地震、颱風、公路施工管制緣故），建議您直接洽詢花蓮客運（03-8338146）確認公車班次時間。<br>
 
+台灣好行-太魯閣線:1133<br>
 
-               
+網站及時刻表： <li><a href="http://www.hualienbus.com.tw/bus/hualien_bus.php"></a></li><br>
 
-                <tr>
-                    <td>1717</td>
-                    <td>臺北車站─陽明山─金山</td>
-                    
-                </tr>
+太魯閣客運綠能公車302線<br>
+網站及時刻表： <li><a href="http://www.ropobus.com/route?area=6"></a></li><br>
+<li><a href="https://www.taroko.gov.tw/content/file/302%E5%85%AC%E8%BB%8A%E6%99%82%E5%88%BB%E8%A1%A8.xls">302公車時刻表(.xls)</a></li><br>
+<li><a href="https://www.taroko.gov.tw/content/file/302%E5%85%AC%E8%BB%8A%E6%99%82%E5%88%BB%E8%A1%A8.ods">3302公車時刻表(.ods)</a></li><br>
 
-               
-                </tbody>
-        </table>
     </p>
 </div>
 
