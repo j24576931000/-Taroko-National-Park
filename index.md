@@ -648,7 +648,7 @@ PS：因時刻表仍會更新或變動（因地震、颱風、公路施工管制
             <tbody>
 
                 <tr>
-                    <td>立霧客棧<img style="width:100%;height:100px" src="http://pic.pimg.tw/maluchunchun/1386203816-2575111900_n.jpg"></td>
+                    <td>立霧客棧</td>
                     <td> 花蓮縣秀林鄉富世242之2號</td>
                     <td>03-86107695</td>
                     <td> <a href="http://www.mandarin-airlines.com/index.html">http://www.mandarin-airlines.com/index.html</a></td>
