@@ -655,10 +655,10 @@ PS：因時刻表仍會更新或變動（因地震、颱風、公路施工管制
                 </tr>
 
                 <tr>
-                    <td>陽明山天籟渡假酒店</td>
-                    <td>新北市金山區名流路1之7號</td>
-                    <td>02-2408-0000</td>
-                     <td> <a href="http://www.mandarin-airlines.com/index.html">http://www.mandarin-airlines.com/index.html</a></td>
+                    <td>走過虹橋<img style="width:100%;height:400px" src="http://pic.pimg.tw/songster/1416476805-3524352764.jpg?v=1416476865"></td>
+                    <td>972花蓮縣秀林鄉三鄰210號</td>
+                    <td>03 862 1328</td>
+                     <td> <a href="https://www.teyra.com.tw/</a></td>
                 </tr>
 
                 <tr>
@@ -692,7 +692,7 @@ PS：因時刻表仍會更新或變動（因地震、颱風、公路施工管制
         <table border="1" cellpadding="5" cellspacing="0" width="90%">
             <thead>
                 <tr>
-                    <th width="31%">店名</th>
+                    <th width="70%">店名</th>
                     <th width="43%">地址 </th>
                     <th width="23%">聯絡電話 </th>
                     <th width="23%">營業時間 </th>
