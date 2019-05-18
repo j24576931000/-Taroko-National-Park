@@ -1,14 +1,906 @@
-<style>
-  body { background-image: url("https://img.funhualien.com.tw/uploads/20180907004138_11.jpg"); background-repeat: no-repeat; background-attachment: fixed; background-position: center; background-size: cover; }
-  h2 {
+
+<style> html { height: 100%; }
+    body {
+        background-image: url("https://img.funhualien.com.tw/uploads/20180907004138_11.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+    }
+    
+    p {
+        font-size: 18px;
+        font-family: Microsoft JhengHei;
+    }
+    
+    h2 {
         font-family: "微軟正黑體";
         font-weight: bold;
     }
-  </style>
-  <h2 >基本資訊:</h2>
-  <h2>國家公園標示意涵:</h2>
-  <h2>公園特色介紹:</h2>
-  <h2>交通資訊:</h2>
-  <h2>住宿資訊:</h2>
-  <h2>美食資訊:</h2>
-  <h2>資料來源:</h2>
+    
+    td {
+        font-family: "微軟正黑體";
+        font-size: 18px;
+    }
+    /* button*/
+    .button {
+        background-color: #a0fdff;
+        border: 2px solid black;
+        color:  #0645ad;
+        padding: 8px 24px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        display: block;
+    }
+    
+    .button:hover {
+        background-color: #A1D0FF;
+    }
+    
+    #flip {
+        background-color: #a0fdff;
+        border: 2px solid black;
+        color: black;
+        padding: 8px 42px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        display: block;
+    }
+    
+    .button-bar {
+        position: fixed;
+        top: 5%;
+        right: 5%;
+    }
+    
+    
+    
+    
+    /*light box*/
+    
+     * {
+        box-sizing: border-box
+    }
+    
+    body {
+        font-family: Verdana, sans-serif;
+        margin: 0
+    }
+    
+    .mySlides {
+        display: none
+    }
+    
+    img {
+        vertical-align: middle;
+    }
+    /* Slideshow container */
+    
+    .slideshow-container {
+        max-width: 1000px;
+        position: relative;
+        margin: auto;
+    }
+    /* Next & previous buttons */
+    
+    .prev,
+    .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        padding: 16px;
+        margin-top: -22px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+    }
+    /* Position the "next button" to the right */
+    
+    .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+    }
+    /* On hover, add a black background color with a little bit see-through */
+    
+    .prev:hover,
+    .next:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+    /* Caption text */
+    
+    .text {
+        color: #f2f2f2;
+        font-size: 15px;
+        padding: 8px 12px;
+        position: absolute;
+        bottom: 8px;
+        width: 100%;
+        text-align: center;
+    }
+    /* Number text (1/3 etc) */
+    
+    .numbertext {
+        color: #f2f2f2;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+    }
+    /* The dots/bullets/indicators */
+    
+    .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+    }
+    
+    .active,
+    .dot:hover {
+        background-color: #717171;
+    }
+    /* Fading animation */
+    
+    .fade {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 1.5s;
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+    
+    @-webkit-keyframes fade {
+        from {
+            opacity: .4
+        }
+        to {
+            opacity: 1
+        }
+    }
+    
+    @keyframes fade {
+        from {
+            opacity: .4
+        }
+        to {
+            opacity: 1
+        }
+    }
+    /* On smaller screens, decrease text size */
+    @media only screen and (max-width: 300px) {
+        .prev,
+        .next,
+        .text {
+            font-size: 11px
+        }
+    }
+    
+    
+    
+    
+    /*tabs*/
+     body {
+        font-family: Arial;
+    }
+    /* Style the tab */
+    
+    .tab {
+        overflow: hidden;
+        border: 1px solid #ccc;
+        background-color: #f1f1f1;
+    }
+    /* Style the buttons inside the tab */
+    
+    .tab button {
+        background-color: inherit;
+        float: left;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 10px 12px;
+        transition: 0.3s;
+        font-size: 17px;
+    }
+    /* Change background color of buttons on hover */
+    
+    .tab button:hover {
+        background-color: #ddd;
+    }
+    /* Create an active/current tablink class */
+    
+    .tab button.active {
+        background-color: #ccc;
+    }
+    /* Style the tab content */
+    
+    .tabcontent {
+        display: none;
+        padding: 6px 12px;
+        border: 1px solid #ccc;
+        border-top: none;
+    }
+    
+    
+    /*video*/
+    .video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+    }
+
+    .video-container iframe,
+    .video-container object,
+    .video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    }
+
+   
+</style>
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#top').click(function() {
+                $('html, body').animate({
+                    scrollTop: 0
+                }, 1000);
+            });
+            $('#bottom').click(function() {
+                $('html, body').animate({
+                    scrollTop: $(document).height() - $(window).height()
+                }, 1000);
+            });
+            $('#a').click(function() {
+                $('html, body').animate({
+                    scrollTop: $("#A").offset().top
+                }, 1000);
+            });
+            $('#b').click(function() {
+                $('html, body').animate({
+                    scrollTop: $("#B").offset().top
+                }, 1000);
+            });
+            $('#c').click(function() {
+                $('html, body').animate({
+                    scrollTop: $("#C").offset().top
+                }, 1000);
+            });
+            $('#d').click(function() {
+                $('html, body').animate({
+                    scrollTop: $("#D").offset().top
+                }, 1000);
+            });
+            $('#e').click(function() {
+                $('html, body').animate({
+                    scrollTop: $("#E").offset().top
+                }, 1000);
+            });
+            $('#f').click(function() {
+                $('html, body').animate({
+                    scrollTop: $("#F").offset().top
+                }, 1000);
+            });
+            $("#flip").click(function() {
+                $(".button").slideToggle("slow");
+            });
+        });
+    </script>
+</head>
+陽明山國家公園
+<h2 class="header-level-2" id="A">基本資訊:</h2>
+<div style="background-color:#EEFFBB;border:2px black solid;padding:10px;">
+    <ol>
+        <li>
+            <p>太魯閣國家公園是台灣第四座成立的國家公園，建立時間	1986年11月12日，占地920平方公里，前身為日治時期成立之次高太魯閣國立公園（1937～1945）。第二次世界大戰後為國家級風景區，1986年11月12日公告計畫，1986年11月28日成立管理處。位於台灣東部，地跨花蓮縣、臺中市、南投縣三個行政區。園內有台灣第一條東西橫貫公路通過，稱為中橫公路系統。太魯閣國家公園的特色為峽谷和斷崖。
+ </p>
+        </li>
+        
+    </ol>
+</div>
+
+<h2 class="header-level-2" id="B">國家公園標示意涵:</h2>
+<div style="background-color:#EEFFBB;border:2px black solid;padding:10px;">
+    <img align="left" style="width: 100px; height: 100px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Taroko_National_Park_Headquarters_Logo.svg/2000px-Taroko_National_Park_Headquarters_Logo.svg.png" data-type="image">
+    <center>
+        <p>太魯閣國家公園管理處處徽呈現高山、森林、峽谷一線天，三棵樹代表「森林」、左右V形色塊代表「峽谷」，峽谷中間有雪覆蓋的山代表「高山」。太魯閣國家公園以雄偉壯麗、幾近垂直的大理石峽谷景觀聞名。沿途立霧溪的峽谷風景線而行，觸目所及皆是壁立千仞的峭壁、斷崖、峽谷、連綿曲折的山洞隧道、大里岩層及溪流等風光。
+        </p>
+    </center>
+</div>
+
+<h2 class="header-level-2" id="C">特色介紹:</h2>
+<div style="background-color:#EEFFBB;border:2px black solid;padding:10px;">
+
+<p></p>
+    <body>
+
+<div class="tab">
+    <button class="tablinks" onclick="openCity(event, '氣候')" id="defaultOpen">氣候</button>
+    <button class="tablinks" onclick="openCity(event, '地形景觀')">地形景觀</button>
+    <button class="tablinks" onclick="openCity(event, '生態系')">生態系</button>
+    <button class="tablinks" onclick="openCity(event, '景點介紹')">景點介紹</button>
+    
+   
+    <button class="tablinks" onclick="openCity(event, '相關影音')">相關影音</button>
+</div>
+
+<div id="氣候" class="tabcontent">
+    <h2>氣候</h2>
+    <p>園區東部由海平面到500公尺以下地區，屬於亞熱帶夏季濕潤炎熱氣候區；南、北、西側位於海拔3000公尺以上之高山地區，屬於高山寒帶氣候區；其餘在海拔1000公尺至3000公尺山區，則為山地亞熱帶濕潤炎熱氣候區。溯立霧溪而上，年平均氣溫由海拔100公尺處的23℃逐步遞減，至海拔3000公尺的合歡山一帶，年均溫為7℃。到南湖大山及奇萊山一帶3500公尺以上之高山地區，年均溫則降為4℃，其中冬季12至2月間月均溫都在0℃以下，最低溫更會低至-10℃以下。國家公園範圍內年雨量幾乎都在2000mm以上，無明顯旱季，夏季易受颱風影響，2500公尺以上山區，冬季已有降雪。</p>
+   
+</div>
+
+<div id="地形景觀" class="tabcontent">
+    
+    <h2>地形</h2>
+    <p> 國家公園東臨太平洋，中央山脈北段通過園區，園區最高點為海拔3,742公尺的南湖大山。海拔三千公尺以上之高山寒帶地區面積約占國家公園範圍的7.2%，列名台灣百岳的山峰共27座。一千公尺至三千公尺之溫帶山地地區約占全區78.4%，坡度55%以上地區約占園區面積44.7%。水系大致以中央山脈為分水嶺，東側主要屬於立霧溪集水區，占國家公園面積的65.7%，少部分屬於木瓜溪或三棧溪流域；西側則分屬大甲溪或濁水溪上游，兩集水區占國家公園，面積的20%全區南、北地勢均高，中央地帶因位於歐亞大陸板塊和菲律賓板塊的碰撞交界以及太平洋西岸亞熱帶颱風豪雨區，產生複雜的地質現象。持續進行的極速造山運動，以及立霧溪的極速下切作用，形成奇特之高山、峽谷地形，太魯閣狹窄呈V字型的大理岩峽谷，深度超過1000公尺，大理岩岩層厚度達千餘公尺以上，分布範圍廣達十餘公里。</p>
+
+</div>
+
+<div id="生態系" class="tabcontent">
+    <h2> </h2>
+    <p>1.水域生態系：大吻鰕虎、日本禿頭鯊、棕塘鱧、台灣絨鰲蟹、泥鰍、台灣鏟頜魚、河烏、鉛色水鶇、台灣紫嘯鶇、貓鼬。<br>
+2.常綠闊葉林生態系：九芎、山棕、台灣蘆竹、青苧麻、綠椿象、紅紋鳳蝶、長臂龜、捲葉象鼻蟲、野鴝、白尾鴝、藍尾鴝、藍磯鶇、赤腹松鼠、大赤鼯鼠、條紋松鼠、山豬、山羌、長鬃山羊。<br>
+3.針闊葉樹混生林生態系：台灣雲杉、台灣鐵杉、紅檜、扁柏、台灣黃杉、綠啄木、白耳畫眉、青背山雀、冠羽畫眉、棕面鶯、紅頭山雀、紋翼畫眉、黃腹琉璃鳥、巨嘴鴉、橿鳥、藪鳥、森鼠、高山白腹鼠、赤腹松鼠、條紋松鼠、大赤鼯鼠、白面鼯鼠、台灣長鬃山羊、山羌、水鹿、台灣黑熊。<br>
+4.針葉林生態系：玉山圓柏、台灣雲杉、台灣鐵杉、台灣冷杉、白面鼯鼠、條紋松鼠、高山白腹鼠、森鼠、火冠戴菊鳥、酒紅朱雀、煤山雀、金翼白眉、星鴉、鷦鷯、栗背林鴝、台灣黑熊、台灣長鬃山羊、台灣山椒魚。<br>
+5.箭竹草原生態系：玉山箭竹、龍膽、台灣藜籚、南湖杜鵑、森氏杜鵑、岩鷚、鷦鷯、酒紅朱雀、高山白腹鼠、台灣森鼠、雪山草蜥、華南鼬鼠。<br>
+6.寒原生態系：南湖杜鵑、玉山圓柏、玉山箭竹、高山山蘿蔔、南湖柳葉菜、酒紅朱雀、金翼白眉、高山白腹鼠、台灣長鬃山羊、華南鼬鼠。<br></p>
+  
+</div>
+
+ <div id="景點介紹" class="tabcontent">
+    <h2>崇德步道</h2>
+    <p>
+想要觀看離太魯閣最近的清水斷崖？崇德步道是最佳觀賞點！從太魯閣出發，沿著蘇花公路往北，經過崇德村、穿過蘇花公路北上第一個隧道—崇德隧道後，即抵達崇德停車場。這裡緊鄰太平洋，向北眺望是清水斷崖；朝南遠望是由立霧溪沖積出來的崇德沖積扇。來到崇德，可以聽濤、觀海、賞景，享受海風的吹彿<br></p>
+      <h2>長春祠</h2>
+    <p>
+眼前這座詩意盎然伴隨著飛瀑湧泉的雅緻古剎，是為了紀念闢建中橫公路而不幸殉職的築路人所建。一旁莊嚴肅靜的彌陀巖，供旅人遙想當年的開路艱辛、篳路藍縷。定睛一瞧，絕壁上尚刻有『長春聽濤』不難想像大雨過後的氣勢磅薄。<br></p>
+      <h2>布洛灣</h2>
+    <p>
+太魯閣族語『回音』之意，這裡是遺世獨立的台地，四周完全被青翠的山嶺包圍，時間在這裡緩了下來，天空燕群啁啾聲與蟬鳴是悅耳的背景音樂，櫻花、百合、李樹，讓人彷彿置身在桃花源裡。現今設有布洛灣管理站，提供解說諮詢服務，並可觀賞以太魯閣族傳說文化的影片及參觀太魯閣族文化故事館。<br></p>
+        <h2>碧綠神木</h2>
+    <p>
+碧綠神木是中橫公路沿線唯一的參天古木，地處霧林帶，四周森林濃密，植物相當豐富，春天可見本土杜鵑科西施花盛開，秋冬時節，掌葉槭、紅榨槭等落葉樹種是觀賞季節更迭最佳的景點。<br></p>
+  <h2>燕子口</h2>
+    <p>
+險峻陡峭的太魯閣峽谷，是旅客造訪太魯閣國家公園的必到之處。600萬年前的『蓬萊造山運動』加上立霧溪水終年不斷的侵蝕切割，造就這一處另人嘆為觀止的峽谷景觀地形。沿途可欣賞壺穴、湧泉等天然景觀，不時還有洋燕彿過岩盤。步道全程大約2公里，平坦舒適，是一條人車共用兼具地質與生態特色的無障礙景觀型步道。<br></p>
+</div>
+
+
+
+
+
+<div id="相關影音" class="tabcontent">
+<div class="video-container">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/8bhp5Cg5YxM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    </div>
+
+
+
+
+
+<script>
+    function openCity(evt, cityName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.className += " active";
+    }
+
+    // Get the element with id="defaultOpen" and click on it
+    document.getElementById("defaultOpen").click();
+</script>
+    <p></p>
+        <div class="slideshow-container">
+
+    <div class="mySlides fade">
+        <div class="numbertext">1 / 5</div>
+        <img style="width:100%;height:400px" src="https://www.funtime.com.tw/blog/wp-content/uploads/2017/08/28.png">
+        <div class="text"> 夢幻湖</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">2 / 5</div>
+        <img style="width:100%;height:400px" src="https://www.funtime.com.tw/blog/wp-content/uploads/2017/08/130.jpg" >
+        <div class="text"> 擎天崗</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">3 / 5</div>
+        <img style="width:100%;height:400px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCQbpF2Ed1cBs92fJpY4bIFw8aLfNKPjMt8hR7sl3AnYO_cDSyoQ">
+        <div class="text"> 山羌</div>
+    </div>
+    
+    <div class="mySlides fade">
+        <div class="numbertext">4 / 5</div>
+        <img style="width:100%;height:400px" src="https://www.ymsnp.gov.tw/filesys/images/ch/csv/rsc/resource04-01.jpg">
+        <div class="text"> 赤腹松鼠  </div>
+    </div>
+    
+    <div class="mySlides fade">
+        <div class="numbertext">5 / 5</div>
+        <img style="width:100%;height:400px" src="https://www.ymsnp.gov.tw/filesys/images/ch/csv/rsc/resource03-01.jpg">
+        <div class="text"> 臺灣龍膽</div>
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span>
+</div>
+
+<script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+        showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+        showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {
+            slideIndex = 1
+        }
+        if (n < 1) {
+            slideIndex = slides.length
+        }
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+    }
+</script>
+    
+    
+    
+    <p></p>
+
+
+
+<h2 class="header-level-2" id="D">交通資訊:</h2>
+<div style="background-color:#EEFFBB;border:2px black solid;padding:10px;">
+<div class="tab">
+    <button class="tablinks" onclick="openCity(event, '遊園公車')">遊園公車</button>
+    <button class="tablinks" onclick="openCity(event, '聯營公車')">聯營公車</button>
+    <button class="tablinks" onclick="openCity(event, '休閒公車')">休閒公車</button>
+    <button class="tablinks" onclick="openCity(event, '公路客運')">公路客運</button>
+    <button class="tablinks" onclick="openCity(event, '租車')">租車</button>
+    
+
+</div>
+<p>1．台北火車站到陽明山國家公園管理處<br>
+（1）北二門搭乘260公車到陽明山站（終點站)到轉搭108遊園公車到陽明山國家公園管理處<br>
+（2）搭乘捷運淡水線、北投線到捷運劍潭站到轉搭紅5到陽明山站（終點站）轉搭108遊園公車到陽明山國家公園管理處<br>
+2．台灣高鐵台北站到陽明山國家公園管理處<br>
+（1）北二門搭乘260公車到陽明山站（終點站)轉搭108遊園公車<br>
+（2）搭乘捷運淡水線、北投線到捷運劍潭站到轉搭紅5到陽明山站（終點站）轉搭108遊園公車到陽明山國家公園管理處<br>
+3．公園路（台北車站)到陽明山國家公園管理處<br>
+搭乘1717皇家客運到陽明山國家公園管理處<br>
+4．捷運劍潭站到陽明山國家公園管理處<br>
+搭乘紅5到陽明山站（終點站轉搭108遊園公車到陽明山國家公園管理處<br>
+5．捷運石牌站到陽明山國家公園管理處<br>
+搭乘小8到陽明山國家公園管理處<br>
+6．捷運北投站到陽明山國家公園管理處<br>
+（1）搭乘小9到陽明山國家公園管理處<br>
+（2）搭乘230公車陽明山站轉搭108遊園公車到陽明山國家公園管理處<br>
+7．東湖到陽明山國家公園管理處<br>
+搭乘681到陽明山國家公園管理處<br> </p>
+<div id="遊園公車" class="tabcontent">
+    <h2 style="color:#FF8800;font-weight:bold;">遊園公車:</h2>
+   
+<p>
+        <table border="1" cellpadding="5" cellspacing="0" width="90%">
+            <thead>
+                <tr>
+                    <th width="31%">名稱 </th>
+                    <th width="47%">路線 </th>
+                  
+                </tr>
+            </thead>
+            <tbody>
+
+
+                <tr>
+                    <td>108</td>
+                    <td>陽明山遊園公車</td>
+                    
+                </tr>
+
+                <tr>
+                    <td>108區</td>
+                    <td>陽明山－二子坪</td>
+                    
+                </tr>
+
+               
+                </tbody>
+        </table>
+    </p>
+</div>
+
+<div id="聯營公車" class="tabcontent">
+    <h2 style="color:#FF8800;font-weight:bold;">聯營公車:</h2>
+    <p>
+        <table border="1" cellpadding="5" cellspacing="0" width="90%">
+            <thead>
+                <tr>
+                    <th width="31%">名稱 </th>
+                    <th width="47%">路線 </th>
+                  
+                </tr>
+            </thead>
+            <tbody>
+
+
+                <tr>
+                    <td>230</td>
+                    <td>捷運北投站─陽明山</td>
+                    
+                </tr>
+
+                <tr>
+                    <td>260</td>
+                    <td>東園─陽明山</td>
+                    
+                </tr>
+
+                <tr>
+                    <td>260區</td>
+                    <td>臺北車站─陽明山</td>
+                   
+                </tr>
+
+                <tr>
+                    <td>303 </td>
+                    <td>捷運劍潭站─大坪尾</td>
+                    
+                </tr>
+
+                <tr>
+                    <td>303區	</td>
+                    <td>捷運劍潭站─平等里</td>
+                    
+                </tr>
+
+                <tr>
+                    <td>681	</td>
+                    <td>東湖站─陽明山國家公園管理處</td>
+                </tr>
+
+                <tr>
+                    <td>紅5	</td>
+                    <td>捷運劍潭站─陽明山</td>
+                    
+                </tr>
+
+                <tr>
+                    <td>小6	</td>
+                    <td>北投站─清天宮</td>
+                   
+                </tr>
+
+                <tr>
+                    <td>小7</td>
+                    <td>北投站─嶺頭</td>
+                    
+                </tr>
+                 <tr>
+                    <td>小8</td>
+                    <td>捷運石牌站─竹子湖</td>
+                    
+                </tr>
+                 <tr>
+                    <td>小9</td>
+                    <td>(台灣好行-北投竹子湖)	捷運北投站─竹子湖</td>
+                    
+                </tr>
+                 <tr>
+                    <td>小15</td>
+                    <td>捷運劍潭站─擎天崗</td>
+                    
+                </tr>
+                 <tr>
+                    <td>小15區</td>
+                    <td>捷運劍潭站─菁山遊憩區</td>
+                    
+                </tr>
+                
+                 <tr>
+                    <td>小18</td>
+                    <td>捷運劍潭站─聖人瀑布</td>
+                    
+                </tr>
+                 <tr>
+                    <td>小19</td>
+                    <td>捷運劍潭站─平等里</td>
+                    
+                </tr>
+                 <tr>
+                    <td>小25</td>
+                    <td>捷運北投站─六窟</td>
+                    
+                </tr>
+                <tr>
+                    <td>小26</td>
+                    <td>北投站─頂湖</td>
+                    
+                </tr>
+                <tr>
+                    <td>小36</td>
+                    <td>捷捷運石牌站─六窟</td>
+                    
+                </tr>
+                <tr>
+                    <td>市民小巴1</td>
+                    <td>捷運劍潭站─風櫃嘴</td>
+                    
+                </tr>
+                </tbody>
+        </table>
+    </p>
+</div>
+
+<div id="休閒公車" class="tabcontent">
+    <h2 style="color:#FF8800;font-weight:bold;">休閒公車(僅假日行駛):</h2>
+
+    <table border="1" cellpadding="5" cellspacing="0" width="90%">
+        <thead>
+            <tr>
+                <th width="31%">名稱 </th>
+                <th width="18%">路線 </th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>109</td>
+                <td>萬芳社區─陽明山國家公園管理處</td>
+            </tr>
+
+            <tr>
+                <td>111</td>
+                <td>	捷運迴龍站─陽明山國家公園管理處</td>
+            </tr>
+
+            <tr>
+                <td>128</td>
+                <td>捷運石牌站─陽明山國家公園管理處</td>
+            </tr>
+
+            <tr>
+                <td>129</td>
+                <td>	捷運北投站─竹子湖</td>
+            </tr>
+
+        </tbody>
+    </table>
+    
+</div>
+<div id="公路客運" class="tabcontent">
+    <h2 style="color:#FF8800;font-weight:bold;">公路客運:</h2>
+   
+<p>
+        <table border="1" cellpadding="5" cellspacing="0" width="90%">
+            <thead>
+                <tr>
+                    <th width="31%">名稱 </th>
+                    <th width="47%">路線 </th>
+                  
+                </tr>
+            </thead>
+            <tbody>
+
+
+               
+
+                <tr>
+                    <td>1717</td>
+                    <td>臺北車站─陽明山─金山</td>
+                    
+                </tr>
+
+               
+                </tbody>
+        </table>
+    </p>
+</div>
+
+
+
+
+<script>
+    function openCity(evt, cityName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.className += " active";
+    }
+
+    // Get the element with id="defaultOpen1" and click on it
+    document.getElementById("defaultOpen1").click();
+</script>
+</div>
+
+<h2 class="header-level-2" id="E">住宿資訊:</h2>
+<div style="background-color:#EEFFBB;border:2px black solid;padding:10px;">
+    <p>
+        <table border="1" cellpadding="5" cellspacing="0" width="90%">
+            <thead>
+                <tr>
+                    <th width="25%">民宿/飯店 </th>
+                    <th width="48%">地址 </th>
+                    <th width="24%">聯絡電話 </th>
+                </tr>
+            </thead>
+            <tbody>
+
+                <tr>
+                    <td>麗之湯溫泉會館</td>
+                    <td>台北市北投區溫泉路銀光巷4-2號</td>
+                    <td>07-9682715</td>
+                </tr>
+
+                <tr>
+                    <td>陽明山天籟渡假酒店</td>
+                    <td>新北市金山區名流路1之7號</td>
+                    <td>02-2408-0000</td>
+                </tr>
+
+                <tr>
+                    <td>陽明山出霧溫泉飯店</td>
+                    <td>新北市金山區山城路82之3號</td>
+                    <td>02-24080666#1</td>
+                </tr>
+
+                <tr>
+                    <td>陽明山中國麗緻大飯店</td>
+                    <td>台北市士林區格致路237號</td>
+                    <td>02 2861 6661</td>
+                </tr>
+
+                <tr>
+                    <td>金山劉住春天 原宿溫泉民宿</td>
+                    <td>208新北市金山區名流路10巷11號</td>
+                    <td>0955 937 226</td>
+                </tr>
+            </tbody>
+        </table>
+    </p>
+</div>
+
+<h2 class="header-level-2" id="F">美食資訊:</h2>
+<div style="background-color:#EEFFBB;border:2px black solid;padding:10px;">
+    <p>
+        <table border="1" cellpadding="5" cellspacing="0" width="90%">
+            <thead>
+                <tr>
+                    <th width="31%">店名</th>
+                    <th width="43%">地址 </th>
+                    <th width="23%">聯絡電話 </th>
+                    <th width="23%">營業時間 </th>
+                </tr>
+            </thead>
+            <tbody>
+
+                <tr>
+                    <td>The cafe’ by 想 陽明山</td>
+                    <td>台北市士林區陽明里光華路30號</td>
+                    <td>02 2862 6628</td>
+                    <td>上午9:30 – 下午8:00</td>
+                </tr>
+
+                <tr>
+                    <td>草山夜未眠景觀餐廳</td>
+                    <td>台北市士林區東山路25巷81弄99號</td>
+                    <td>02 2862 3751</td>
+                    <td>周一至周四16:00 – 3:00周五16:00 – 5:00周六12:00 – 5:00周日12:00 – 3:00</td>
+                </tr>
+
+                <tr>
+                    <td>皇池溫泉御膳館</td>
+                    <td>台北市北投區行義路402巷42之1號</td>
+                    <td>02 2862 3688</td>
+                    <td>皇池一館泡湯24小時，用餐中午12：00～凌晨03：00</td>
+                </tr>
+
+                <tr>
+                    <td>白房子Yang Ming Caf’e</td>
+                    <td>台北市士林區愛富二街厚生巷2號</td>
+                    <td>(02)2861-1777</td>
+                    <td>10:00–21:00</td>
+                </tr>
+
+                <tr>
+                    <td>蒙馬特影像咖啡 </td>
+                    <td>台北市士林區菁山路131巷13號</td>
+                    <td>02 2862 4347</td>
+                    <td>早上10:00–19:00</td>
+                </tr>
+            </tbody>
+        </table>
+    </p>
+</div>
+
+<h2 class="header-level-2">資料來源:</h2>
+<div style="background-color:#EEFFBB;border:2px black solid;padding:10px;">
+    <ul>
+        <li><a href="http://np.cpami.gov.tw/">台灣國家公園</a></li>
+        <br>
+        <li><a href="https://www.ymsnp.gov.tw/">陽明山國家公園</a></li>
+        <br>
+        
+        <li><a href="https://www.mecocute.com/ymsnp/">台北美食：陽明山美食溫泉餐廳小吃景點推薦，陽明山必吃美食必去景點</a></li>
+        <br>
+        <li><a href="https://www.trivago.com.tw/?themeId=457&iGeoDistanceItem=2512484&sem_keyword=%E9%99%BD%E6%98%8E%E5%B1%B1%20%E4%BD%8F%E5%AE%BF%20%E6%8E%A8%E8%96%A6&sem_creativeid=333376697745&sem_matchtype=e&sem_network=g&sem_device=c&sem_placement=&sem_target=&sem_adposition=1t1&sem_param1=&sem_param2=&sem_campaignid=1682128211&sem_adgroupid=71121431928&sem_targetid=kwd-635820411482&sem_location=1012825&cip=8861901253&gclid=EAIaIQobChMI3dPGgaKi4gIVGq6WCh2bkwmiEAAYASAAEgK6oPD_BwE">trivago</a></li>
+        <br>
+        <li><a href="https://zh.wikipedia.org/wiki/%E9%99%BD%E6%98%8E%E5%B1%B1%E5%9C%8B%E5%AE%B6%E5%85%AC%E5%9C%92">維基百科</a></li>
+    </ul>
+</div>
+
+<div class="button-bar">
+    <a id="flip">選單</a>
+    <a class="button" id="a" href="#">基本資訊</a>
+    <a class="button" id="b" href="#">標示意涵</a>
+    <a class="button" id="c" href="#">特色介紹</a>
+    <a class="button" id="d" href="#">交通資訊</a>
+    <a class="button" id="e" href="#">住宿資訊</a>
+    <a class="button" id="f" href="#">美食資訊</a>
+    <a class="button" id="top" href="#">網頁頂端</a>
+    <a class="button" id="bottom" href="#">網頁底部</a>
+    <a class="button" id="home" href="https://jim99224.github.io/HomePage/">返回主頁</a>
+</div>
+
+
