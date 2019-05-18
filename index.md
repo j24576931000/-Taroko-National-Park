@@ -648,8 +648,8 @@ PS：因時刻表仍會更新或變動（因地震、颱風、公路施工管制
             <tbody>
 
                 <tr>
-                    <td>立霧客棧<img style="width:40%;height:40px" src="http://pic.pimg.tw/maluchunchun/1386203816-2575111900_n.jpg"></td>
-                    <td> 972花蓮縣秀林鄉富世242之2號</td>
+                    <td>立霧客棧<img style="width:100%;height:100px" src="http://pic.pimg.tw/maluchunchun/1386203816-2575111900_n.jpg"></td>
+                    <td> 花蓮縣秀林鄉富世242之2號</td>
                     <td>03-86107695</td>
                     <td> <a href="http://www.mandarin-airlines.com/index.html">http://www.mandarin-airlines.com/index.html</a></td>
                 </tr>
@@ -692,7 +692,7 @@ PS：因時刻表仍會更新或變動（因地震、颱風、公路施工管制
         <table border="1" cellpadding="5" cellspacing="0" width="90%">
             <thead>
                 <tr>
-                    <th width="70%">店名</th>
+                    <th width="30%">店名</th>
                     <th width="43%">地址 </th>
                     <th width="23%">聯絡電話 </th>
                     <th width="23%">營業時間 </th>
@@ -701,38 +701,39 @@ PS：因時刻表仍會更新或變動（因地震、颱風、公路施工管制
             <tbody>
 
                 <tr>
-                    <td>The cafe’ by 想 陽明山</td>
-                    <td>台北市士林區陽明里光華路30號</td>
-                    <td>02 2862 6628</td>
-                    <td>上午9:30 – 下午8:00</td>
+                    <td>達基力部落屋</td>
+                    <td>花蓮縣秀林鄉崇德村96號</td>
+                    <td>03-8621033</td>
+                    <td>11:30〜15:00</td>
                 </tr>
 
                 <tr>
-                    <td>草山夜未眠景觀餐廳</td>
-                    <td>台北市士林區東山路25巷81弄99號</td>
-                    <td>02 2862 3751</td>
-                    <td>周一至周四16:00 – 3:00周五16:00 – 5:00周六12:00 – 5:00周日12:00 – 3:00</td>
+                    <td>立德 布洛灣 山月邨</td>
+                    <td> 花蓮縣秀林鄉富世村231-1號</td>
+                    <td>03-8610111</td>
+                    <td>立德布洛灣-山月村內的餐廳</td>
                 </tr>
 
                 <tr>
-                    <td>皇池溫泉御膳館</td>
-                    <td>台北市北投區行義路402巷42之1號</td>
-                    <td>02 2862 3688</td>
-                    <td>皇池一館泡湯24小時，用餐中午12：00～凌晨03：00</td>
+                    <td>太魯閣晶英酒店 梅園中餐廳</td>
+                    <td>花蓮縣秀林鄉天祥路18號</td>
+                    <td>03-8691155</td>
+                    <td> 午餐12:00～14:30／晚餐17:30～19:15、19:30～21:30
+</td>
                 </tr>
 
                 <tr>
-                    <td>白房子Yang Ming Caf’e</td>
-                    <td>台北市士林區愛富二街厚生巷2號</td>
-                    <td>(02)2861-1777</td>
-                    <td>10:00–21:00</td>
+                    <td>橫綱餐館</td>
+                    <td>花蓮縣新城鄉新興路67號</td>
+                    <td>03-8610970</td>
+                    <td>11:00–14:00 17:00-20:00</td>
                 </tr>
 
                 <tr>
-                    <td>蒙馬特影像咖啡 </td>
-                    <td>台北市士林區菁山路131巷13號</td>
-                    <td>02 2862 4347</td>
-                    <td>早上10:00–19:00</td>
+                    <td>佳興冰菓室 </td>
+                    <td> 花蓮縣新城鄉新城村博愛路22號</td>
+                    <td>03-8611888</td>
+                    <td>08:00～17:00 週三公休</td>
                 </tr>
             </tbody>
         </table>
@@ -747,11 +748,11 @@ PS：因時刻表仍會更新或變動（因地震、颱風、公路施工管制
         <li><a href="https://www.taroko.gov.tw/">太魯閣國家公園</a></li>
         <br>
         
-        <li><a href="https://www.mecocute.com/ymsnp/">台北美食：陽明山美食溫泉餐廳小吃景點推薦，陽明山必吃美食必去景點</a></li>
+        <li><a href="https://travelbook.com.tw/topics/1641?p=3">travelbook</a></li>
         <br>
         <li><a href="https://www.trivago.com.tw/?themeId=457&iGeoDistanceItem=2512484&sem_keyword=%E9%99%BD%E6%98%8E%E5%B1%B1%20%E4%BD%8F%E5%AE%BF%20%E6%8E%A8%E8%96%A6&sem_creativeid=333376697745&sem_matchtype=e&sem_network=g&sem_device=c&sem_placement=&sem_target=&sem_adposition=1t1&sem_param1=&sem_param2=&sem_campaignid=1682128211&sem_adgroupid=71121431928&sem_targetid=kwd-635820411482&sem_location=1012825&cip=8861901253&gclid=EAIaIQobChMI3dPGgaKi4gIVGq6WCh2bkwmiEAAYASAAEgK6oPD_BwE">trivago</a></li>
         <br>
-        <li><a href="https://zh.wikipedia.org/wiki/%E9%99%BD%E6%98%8E%E5%B1%B1%E5%9C%8B%E5%AE%B6%E5%85%AC%E5%9C%92">維基百科</a></li>
+        <li><a href="https://zh.wikipedia.org/wiki/%E5%A4%AA%E9%AD%AF%E9%96%A3%E5%9C%8B%E5%AE%B6%E5%85%AC%E5%9C%92">維基百科</a></li>
     </ul>
 </div>
 
