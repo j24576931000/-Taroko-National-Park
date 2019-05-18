@@ -557,10 +557,10 @@
 花蓮火車站：886-3-8355941<br>
 新城火車站：886-3-8611237<br>
 相關網站：<br>
-<li><a href="http://www.railway.gov.tw/">鐵路管理局網：</a></li><br>
-<li><a href="http://twtraffic.tra.gov.tw/twrail/">時刻表及票價：</a></li><br>
- <li><a href="http://railway.hinet.net/">網路購票：</a></li><br>
- <li><a href="http://cscenter.railway.gov.tw/webcall.html">語音客服：</a></li><br>
+鐵路管理局網：<li><a href="http://www.railway.gov.tw/">http://www.railway.gov.tw/</a></li><br>
+時刻表及票價：<li><a href="http://twtraffic.tra.gov.tw/twrail/">http://twtraffic.tra.gov.tw/twrail/</a></li><br>
+ 網路購票：<li><a href="http://railway.hinet.net/">http://railway.hinet.net/</a></li><br>
+ 語音客服：<li><a href="http://cscenter.railway.gov.tw/webcall.html">http://cscenter.railway.gov.tw/webcall.html</a></li><br>
 如何到太魯閣：<br>
 搭乘火車到太魯閣國家公園旅遊的遊客可在『新城火車站』或『花蓮火車站』下車。<br>
 新城火車站：車站至太魯閣國家公園管理處遊客中心約5公里車程。可於站前轉搭乘花蓮客運。<br>
@@ -595,15 +595,15 @@
    
 <p>
         搭乘花蓮客運公車時間約1小時，往『太魯閣』及『崇德』皆可搭乘到太管處，惟進入到峽谷段，請搭乘往『天祥』、『洛韶』或『梨山』公車皆可，進入峽谷段每日公車班次有限，行前請與花蓮客運公司確認公車時刻表（03-8338146），以方便行程安排。<br>
-網站及時刻表： <li><a href="http://www.hualienbus.com.tw/bus/ticket_info.php">http://www.hualienbus.com.tw/bus/ticket_info.php</a></li><br>
+網站及時刻表： <a href="http://www.hualienbus.com.tw/bus/ticket_info.php">http://www.hualienbus.com.tw/bus/ticket_info.php</a><br>
 PS：因時刻表仍會更新或變動（因地震、颱風、公路施工管制緣故），建議您直接洽詢花蓮客運（03-8338146）確認公車班次時間。<br>
 
 台灣好行-太魯閣線:1133<br>
 
-網站及時刻表： <li><a href="http://www.hualienbus.com.tw/bus/hualien_bus.php">http://www.hualienbus.com.tw/bus/hualien_bus.php</a></li><br>
+網站及時刻表：<a href="http://www.hualienbus.com.tw/bus/hualien_bus.php">http://www.hualienbus.com.tw/bus/hualien_bus.php</a><br>
 
 太魯閣客運綠能公車302線<br>
-網站及時刻表： <li><a href="http://www.ropobus.com/route?area=6">http://www.ropobus.com/route?area=6</a></li><br>
+網站及時刻表：<a href="http://www.ropobus.com/route?area=6">http://www.ropobus.com/route?area=6</a><br>
 <li><a href="https://www.taroko.gov.tw/content/file/302%E5%85%AC%E8%BB%8A%E6%99%82%E5%88%BB%E8%A1%A8.xls">302公車時刻表(.xls)</a></li><br>
 <li><a href="https://www.taroko.gov.tw/content/file/302%E5%85%AC%E8%BB%8A%E6%99%82%E5%88%BB%E8%A1%A8.ods">3302公車時刻表(.ods)</a></li><br>
 
