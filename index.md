@@ -306,7 +306,7 @@
         });
     </script>
 </head>
-陽明山國家公園
+太魯閣國家公園
 <h2 class="header-level-2" id="A">基本資訊:</h2>
 <div style="background-color:#EEFFBB;border:2px black solid;padding:10px;">
     <ol>
