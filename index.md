@@ -427,6 +427,7 @@ function googleTranslateElementInit() {
     // Get the element with id="defaultOpen" and click on it
     document.getElementById("defaultOpen").click();
 </script>
+</body>
     <p></p>
         <div class="slideshow-container">
 
