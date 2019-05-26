@@ -512,9 +512,13 @@ function googleTranslateElementInit() {
     <p></p>
 
 
+</div>
 
 <h2 class="header-level-2" id="D">交通資訊:</h2>
 <div style="background-color:#EEFFBB;border:2px black solid;padding:10px;">
+    
+<body>
+
 <div class="tab">
     <button class="tablinks" onclick="openCity(event, '開車上路')">開車上路</button>
     <button class="tablinks" onclick="openCity(event, '鐵路交通')">鐵路交通</button>
@@ -642,7 +646,10 @@ PS：因時刻表仍會更新或變動（因地震、颱風、公路施工管制
     // Get the element with id="defaultOpen1" and click on it
     document.getElementById("defaultOpen1").click();
 </script>
+</body>
 </div>
+
+
 
 <h2 class="header-level-2" id="E">住宿資訊:</h2>
 <div style="background-color:#EEFFBB;border:2px black solid;padding:10px;">
